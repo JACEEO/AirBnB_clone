@@ -1,0 +1,17 @@
+#first {
+  position: relative;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1128px;
+}
+
+.second {
+  position: relative;
+  display: flex;
+  background-color: beige;
+  justify-content: space-between;
+}
