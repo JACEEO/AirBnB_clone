@@ -142,3 +142,7 @@ table {
   background-color: beige;
   justify-content: space-between;
 }
+
+.third {
+  overflow: hidden;
+}
