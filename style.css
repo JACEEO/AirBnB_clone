@@ -356,6 +356,16 @@ button {
 
 /* 카테고리 부분 */
 
+.category_div {
+  padding: 20px 0;
+
+  position: sticky;
+
+  top: 20px;
+
+  height: 98px;
+}
+
 .category {
   position: unset;
   height: 100%;
@@ -363,6 +373,15 @@ button {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: max-content;
+  grid-column-gap: 32px;
+
+  padding-left: 80px;
+
+  overflow: scroll;
+}
+
+.category::-webkit-scrollbar {
+  display: none;
 }
 
 /* 하단 풋터 부분 */
