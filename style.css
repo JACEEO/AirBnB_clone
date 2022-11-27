@@ -408,10 +408,52 @@ button {
   font-size: 12px;
 }
 
+/* main 부분 */
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px 24px;
+
+  justify-content: center;
+  align-items: center;
+  padding: 0 80px;
+  margin: 16px 0 40px;
+}
+
+.main-img {
+  width: 310px;
+  height: 295px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.main-info {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  grid-template-rows: unset;
+  grid-gap: 2px 8px;
+}
+
+.main-price {
+  margin-top: 6px;
+}
+
+.main-detail {
+  grid-column: 1 / 1;
+}
+.main-star {
+  display: flex;
+  grid-column: -2 / -1;
+  grid-row: 1;
+  justify-self: end;
+}
 /* 하단 풋터 부분 */
 
 footer {
   display: block;
+  position: fixed;
+  bottom: 0px;
 }
 
 .footer_wrap {
