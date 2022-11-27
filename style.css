@@ -442,11 +442,20 @@ button {
 .main-detail {
   grid-column: 1 / 1;
 }
+
+.main-detail-info {
+  color: #717171;
+  font-size: 15px;
+}
 .main-star {
   display: flex;
   grid-column: -2 / -1;
   grid-row: 1;
   justify-self: end;
+}
+
+.main-star-svg {
+  margin-right: 5px;
 }
 /* 하단 풋터 부분 */
 
