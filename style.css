@@ -139,6 +139,7 @@ body {
 
 button {
   border: 0;
+  padding: 0;
 }
 
 .banner {
@@ -309,13 +310,16 @@ button {
 
   font-size: 14px;
   line-height: 18px;
-  font-weight: 600;
+  font-weight: 500;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   flex: 1 1 auto;
 }
 
+.guest {
+  color: #717171;
+}
 .search_icon {
   background-color: #ff385c;
   border-radius: 50%;
@@ -356,8 +360,8 @@ button {
 
 /* 카테고리 부분 */
 
-.category_div {
-  padding: 20px 0;
+.category-div {
+  padding: 18px 0;
 
   position: sticky;
 
@@ -369,6 +373,7 @@ button {
 .category {
   position: unset;
   height: 100%;
+  background-color: #ffffff;
 
   display: grid;
   grid-auto-flow: column;
@@ -382,6 +387,25 @@ button {
 
 .category::-webkit-scrollbar {
   display: none;
+}
+
+.category-btn {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.category-span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-img {
+  padding-bottom: 8px;
+}
+
+.category-font {
+  font-size: 12px;
 }
 
 /* 하단 풋터 부분 */
