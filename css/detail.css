@@ -1,0 +1,129 @@
+/* 상단 nav 부분 */
+
+.nav_bar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  max-width: 1470px;
+  height: 80px;
+
+  padding: 0 80px;
+  border-bottom: 1px solid #dddddd;
+  margin: 0 95px;
+}
+.nav_logo_box {
+  display: block;
+  width: 460px;
+}
+
+.nav_a {
+  cursor: pointer;
+  color: #ff385c;
+
+  outline: none;
+  align-items: center;
+  display: inline-flex;
+  height: 80px;
+  position: relative;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.nav_wrap {
+  padding: 0 24px;
+  flex: 0 1 auto;
+  width: 460px;
+}
+
+.nav_search {
+  max-width: 1120px;
+
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 40px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+  transition: box-shadow 0.2s ease;
+
+  height: 48px;
+
+  align-items: center;
+  color: #222222;
+  display: inline-flex;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.nav_search_btn {
+  height: 48px;
+  padding-left: 8px;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  text-align: inherit;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin: -1px;
+
+  position: relative;
+  z-index: 1;
+
+  user-select: auto;
+
+  align-items: center;
+  display: flex;
+  flex: 0 1 auto;
+}
+
+.nav_search_div {
+  padding: 0 16px;
+  width: 230px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1 1 auto;
+}
+
+.search_icon {
+  background-color: #ff385c;
+  border-radius: 50%;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.nav_search_span {
+  background-color: #dddddd;
+
+  flex: 0 0 1px;
+  height: 24px;
+  width: 1px;
+}
+
+.profile {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.profile_a {
+  margin-right: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.profile_detail {
+  border: 1px solid #dddddd;
+  border-radius: 50px;
+  width: 77px;
+  height: 42px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
