@@ -288,3 +288,96 @@
   font-size: 14px;
   color: rgb(113, 113, 113);
 }
+
+/* section */
+.section-div {
+  padding: 32px 0;
+
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.section-aircover {
+  height: 26px;
+  margin-bottom: 16px;
+}
+
+.section-info {
+  margin-bottom: 16px;
+}
+
+.section-btn {
+  border: 0px;
+  cursor: pointer;
+
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 600;
+
+  color: rgb(34, 34, 34);
+  background-color: #ffffff;
+}
+
+/* user comment*/
+
+.user-cmt {
+  padding-top: 32px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.user-cmt-span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.user-btn {
+  margin-top: 16px;
+}
+
+.user-btn-style {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.user-svg {
+  margin-left: 4px;
+  display: inline-flex;
+}
+
+/* side-bar */
+
+.side-bar {
+  margin-top: 48px;
+}
+
+.side-blk {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+}
+
+.side-mny {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-mny-span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.side-star {
+  display: inline-flex;
+}
+
+.side-btn-div {
+  border: 1px solid;
+}
+
+.side-chkin-box {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
