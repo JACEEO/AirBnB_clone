@@ -1,0 +1,56 @@
+.header-div {
+  padding-left: 24px;
+  height: 80px;
+
+  color: #ff385c;
+
+  border-bottom: 1px solid #dddddd;
+
+  display: flex;
+  align-items: center;
+}
+
+.request {
+  padding: 0 80px;
+  padding-bottom: 32px;
+
+  margin: 0 95px;
+
+  height: 116px;
+}
+
+.request-con {
+  padding: 64px 0 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.request-h2 {
+  font-size: 32px;
+  font-weight: 400;
+
+  padding-left: 25px;
+}
+
+.main-div {
+  margin: 0 95px;
+
+  padding: 0 80px;
+  display: flex;
+  align-items: stretch;
+}
+
+.main-left {
+  width: 50%;
+}
+
+.main-right {
+  width: 41.6667%;
+  margin-left: 8.3333%;
+}
+
+.left-h2 {
+  display: block;
+  padding-bottom: 10px;
+}
