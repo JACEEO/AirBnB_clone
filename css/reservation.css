@@ -134,6 +134,14 @@
   justify-content: center;
 }
 
+.login-web-btn:hover {
+  background-color: #dddddd;
+}
+
+.login-email-btn:hover {
+  background-color: #dddddd;
+}
+
 .login-email-btn {
   cursor: pointer;
 
